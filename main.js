@@ -109,8 +109,8 @@ function speech(txt) {
         return;
     }
 
-    var lang = 'ja-JP';
-//    var lang = 'de';
+//    var lang = 'ja-JP';
+    var lang = 'de';
 
     var utterThis = new SpeechSynthesisUtterance(txt);
     utterThis.onend = function (event) {
